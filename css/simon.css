@@ -1,0 +1,256 @@
+#control-board{
+    width: 800px;
+    height: 600px;
+    border-radius: 60%;
+    border: 16px solid #333;
+    margin: 100px auto;
+    position: relative;
+    box-shadow: 0 0 150px #ed1a1a;
+    background-color: #333333;
+}
+#stats-circle{
+    height: 300px;
+    width: 300px;
+    background-color: #333333;
+    position: absolute;
+    left: 30%;
+    border-radius: 50%;
+    top: 150px;
+    z-index: 100;
+    box-shadow: 0 0 0;
+}
+#heading{
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+#title{
+    color: white;
+    font-size: 82px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, serif;
+
+}
+#background{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+
+
+
+}
+#background::after {
+    content: "";
+    background: url("https://i.pinimg.com/originals/2e/af/90/2eaf90e3363adf2cfe2d8f44c559dbea.jpg");
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+h2{
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+/*.square{*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*float: left;*/
+/*}*/
+
+/*.one{*/
+    /*!*background-color: #00FF00;*!*/
+    /*!*border-radius: 55% 0 0 0;*!*/
+    /**/
+/*}*/
+.one{
+
+    box-shadow:
+            0 0 0 1em blue,
+            0 1em 0 1em blue,
+            -2.5em 1.5em 0 .5em blue,
+            2.5em 1.5em 0 .5em blue,
+            -3em -3em 0 0 blue,
+            3em -3em 0 0 blue,
+            -2em -2em 0 0 blue,
+            2em -2em 0 0 blue,
+            -3em -1em 0 0 blue,
+            -2em -1em 0 0 blue,
+            2em -1em 0 0 blue,
+            3em -1em 0 0 blue,
+            -4em 0 0 0 blue,
+            -3em 0 0 0 blue,
+            3em 0 0 0 blue,
+            4em 0 0 0 blue,
+            -5em 1em 0 0 blue,
+            -4em 1em 0 0 blue,
+            4em 1em 0 0 blue,
+            5em 1em 0 0 blue,
+            -5em 2em 0 0 blue,
+            5em 2em 0 0 blue,
+            -5em 3em 0 0 blue,
+            -3em 3em 0 0 blue,
+            3em 3em 0 0 blue,
+            5em 3em 0 0 blue,
+            -2em 4em 0 0 blue,
+            -1em 4em 0 0 blue,
+            1em 4em 0 0 blue,
+            2em 4em 0 0 blue;
+
+    background: blue;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin: 0;
+}
+
+.two {
+    box-shadow:
+            0 0 0 1em red,
+            0 1em 0 1em red,
+            -2.5em 1.5em 0 .5em red,
+            2.5em 1.5em 0 .5em red,
+            -3em -3em 0 0 red,
+            3em -3em 0 0 red,
+            -2em -2em 0 0 red,
+            2em -2em 0 0 red,
+            -3em -1em 0 0 red,
+            -2em -1em 0 0 red,
+            2em -1em 0 0 red,
+            3em -1em 0 0 red,
+            -4em 0 0 0 red,
+            -3em 0 0 0 red,
+            3em 0 0 0 red,
+            4em 0 0 0 red,
+            -5em 1em 0 0 red,
+            -4em 1em 0 0 red,
+            4em 1em 0 0 red,
+            5em 1em 0 0 red,
+            -5em 2em 0 0 red,
+            5em 2em 0 0 red,
+            -5em 3em 0 0 red,
+            -3em 3em 0 0 red,
+            3em 3em 0 0 red,
+            5em 3em 0 0 red,
+            -2em 4em 0 0 red,
+            -1em 4em 0 0 red,
+            1em 4em 0 0 red,
+            2em 4em 0 0 red;
+
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    margin: 0;
+}
+.three {
+    box-shadow:
+            0 0 0 1em green,
+            0 1em 0 1em green,
+            -2.5em 1.5em 0 .5em green,
+            2.5em 1.5em 0 .5em green,
+            -3em -3em 0 0 green,
+            3em -3em 0 0 green,
+            -2em -2em 0 0 green,
+            2em -2em 0 0 green,
+            -3em -1em 0 0 green,
+            -2em -1em 0 0 green,
+            2em -1em 0 0 green,
+            3em -1em 0 0 green,
+            -4em 0 0 0 green,
+            -3em 0 0 0 green,
+            3em 0 0 0 green,
+            4em 0 0 0 green,
+            -5em 1em 0 0 green,
+            -4em 1em 0 0 green,
+            4em 1em 0 0 green,
+            5em 1em 0 0 green,
+            -5em 2em 0 0 green,
+            5em 2em 0 0 green,
+            -5em 3em 0 0 green,
+            -3em 3em 0 0 green,
+            3em 3em 0 0 green,
+            5em 3em 0 0 green,
+            -2em 4em 0 0 green,
+            -1em 4em 0 0 green,
+            1em 4em 0 0 green,
+            2em 4em 0 0 green;
+
+    background: green;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 85%;
+    margin: 0;
+}
+.four {
+    box-shadow:
+            0 0 0 1em yellow,
+            0 1em 0 1em yellow,
+            -2.5em 1.5em 0 .5em yellow,
+            2.5em 1.5em 0 .5em yellow,
+            -3em -3em 0 0 yellow,
+            3em -3em 0 0 yellow,
+            -2em -2em 0 0 yellow,
+            2em -2em 0 0 yellow,
+            -3em -1em 0 0 yellow,
+            -2em -1em 0 0 yellow,
+            2em -1em 0 0 yellow,
+            3em -1em 0 0 yellow,
+            -4em 0 0 0 yellow,
+            -3em 0 0 0 yellow,
+            3em 0 0 0 yellow,
+            4em 0 0 0 yellow,
+            -5em 1em 0 0 yellow,
+            -4em 1em 0 0 yellow,
+            4em 1em 0 0 yellow,
+            5em 1em 0 0 yellow,
+            -5em 2em 0 0 yellow,
+            5em 2em 0 0 yellow,
+            -5em 3em 0 0 yellow,
+            -3em 3em 0 0 yellow,
+            3em 3em 0 0 yellow,
+            5em 3em 0 0 yellow,
+            -2em 4em 0 0 yellow,
+            -1em 4em 0 0 yellow,
+            1em 4em 0 0 yellow,
+            2em 4em 0 0 yellow;
+
+    background: yellow;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin: 0;
+
+}
